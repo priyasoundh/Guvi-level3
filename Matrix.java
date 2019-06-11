@@ -42,7 +42,11 @@ public class Matrix
 		{
 			for(int j=0;j<m;j++)
 			{
-				System.out.print(a[i][j]+" ");
+				System.out.print(a[i][j]);
+				if(j<m-1)
+				{
+					System.out.print(" ");
+				}
 			}
 			System.out.println();
 		}
