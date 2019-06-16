@@ -8,7 +8,7 @@ public class Prefix
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		String s[]=new String[n];
-		int k=100;
+		int k=100000;
 		for(int i=0;i<n;i++)
 		{
 			s[i]=sc.next();
